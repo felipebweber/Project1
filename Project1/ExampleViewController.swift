@@ -7,15 +7,22 @@
 
 import UIKit
 
-class ExampleViewController: UIViewController {
+public class ExampleViewController: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-
+    public init() {
+        super.init(nibName: "ExampleViewController", bundle: Bundle.init(for: ExampleViewController.self))
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     /*
     // MARK: - Navigation
 
