@@ -11,7 +11,7 @@ public class ExampleViewController: UIViewController {
 
     public override func viewDidLoad() {
         super.viewDidLoad()
-
+        navigationItem.title = "First example"
         // Do any additional setup after loading the view.
     }
 
