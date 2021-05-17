@@ -1,5 +1,5 @@
 //
-//  ExampleViewController.swift
+//  ExampleProject1ViewController.swift
 //  Project1
 //
 //  Created by Felipe Bayer Weber on 22/04/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class ExampleViewController: UIViewController {
+public class ExampleProject1ViewController: UIViewController {
 
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,7 +16,7 @@ public class ExampleViewController: UIViewController {
     }
 
     public init() {
-        super.init(nibName: "ExampleViewController", bundle: Bundle.init(for: ExampleViewController.self))
+        super.init(nibName: "ExampleViewController", bundle: Bundle.init(for: ExampleProject1ViewController.self))
     }
     
     required init?(coder: NSCoder) {
